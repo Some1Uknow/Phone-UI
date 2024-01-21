@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Quick Settings Panel</title>
+  </head>
+  <body>
+    <div class="quick-settings">
+      <button onclick="toggleColor(this)">
+        <img src="assets/wi-fi.png" />
+      </button>
+      <button onclick="toggleColor(this)">
+        <img src="assets/mobile-data.png" />
+      </button>
+      <button onclick="toggleColor(this)">
+        <img src="assets/dnd.png" />
+      </button>
+      <button onclick="toggleColor(this)">
+        <img src="assets/bluetooth.png" />
+      </button>
+      <button onclick="toggleColor(this)">
+        <img src="assets/airplane-mode.png" />
+      </button>
+      <button onclick="toggleColor(this)">
+        <img src="assets/location-pin.png" />
+      </button>
+      <button onclick="toggleColor(this)">
+        <img src="assets/flashlight.png" />
+      </button>
+      <button onclick="toggleColor(this)">
+        <img src="assets/rotate.png" />
+      </button>
+      <button onclick="toggleColor(this)">
+        <img src="assets/scanner.png" />
+      </button>
+      <button onclick="toggleColor(this)">
+        <img src="assets/battery-saver.png" />
+      </button>
+      <button onclick="toggleColor(this)">
+        <img src="assets/hotspot.png" />
+      </button>
+      <button onclick="toggleColor(this)">
+        <img src="assets/setting.png" />
+      </button>
+    </div>
+    <script>
+      function toggleColor(button) {
+        button.classList.toggle("clicked");
+      }
+    </script>
+  </body>
+</html>
